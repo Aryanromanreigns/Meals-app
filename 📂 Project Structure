@@ -1,0 +1,20 @@
+Meals-app/
+│
+├── android/                # Android-specific files
+├── assets/                 # Images, icons, fonts
+│   ├── images/
+│   └── fonts/
+├── ios/                    # iOS-specific files
+├── lib/                    # Main Flutter source code
+│   ├── main.dart           # Entry point
+│   ├── models/             # Data models (Meal, Category, etc.)
+│   ├── screens/            # Screen UI files
+│   ├── widgets/            # Reusable UI components
+│   ├── providers/          # State management (if using Provider)
+│   └── utils/              # Helper functions, constants
+├── test/                   # Unit and widget tests
+├── .gitignore              # Files ignored by git
+├── CONTRIBUTING.md         # Contribution guidelines
+├── LICENSE                 # License file
+├── pubspec.yaml            # Flutter dependencies & assets
+└── README.md               # Project documentation
